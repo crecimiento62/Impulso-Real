@@ -1,0 +1,9 @@
+{
+  "name": "impulso-real-platform",
+  "version": "1.0.0",
+  "description": "Impulso Real — plataforma con Netlify Identity y licencias conectadas a Hotmart.",
+  "private": true,
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0"
+  }
+}

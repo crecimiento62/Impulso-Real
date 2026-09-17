@@ -1,0 +1,15 @@
+# ============================================================
+# Configuración del sitio para Netlify.
+# No necesitas tocar este archivo — ya está listo.
+# ============================================================
+[build]
+  functions = "netlify/functions"
+  publish = "."
+
+[functions]
+  node_bundler = "esbuild"
+
+# Todas las rutas de las funciones necesitan el contexto de Identity
+# (para poder crear usuarios y leer la sesión). Esto ya viene activado
+# por defecto en cualquier sitio con Identity habilitado — no requiere
+# configuración extra aquí.

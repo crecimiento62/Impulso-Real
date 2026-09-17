@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iniciar sesión — Impulso Real</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/auth.css">
+</head>
+<body class="auth-page">
+  <div class="access-card card">
+    <div class="logo"><span class="logo-mark">IR</span>Impulso Real</div>
+    <h2>Inicia sesión</h2>
+    <p class="hint">Usa el correo y la contraseña que creaste después de tu compra en Hotmart.</p>
+
+    <p id="loginNotice" class="hidden" style="background:var(--accent-soft);color:#7a5310;border-radius:var(--radius-sm);padding:10px 14px;font-size:13px;margin-bottom:16px;"></p>
+
+    <form id="loginForm">
+      <div class="field"><label for="loginEmail">Correo electrónico</label><input id="loginEmail" type="email" required placeholder="tucorreo@ejemplo.com"></div>
+      <div class="field"><label for="loginPassword">Contraseña</label><input id="loginPassword" type="password" required placeholder="••••••••"></div>
+      <p id="loginError" style="color:var(--danger);font-size:12.5px;min-height:16px;margin:-8px 0 12px;"></p>
+      <button id="loginBtn" class="btn btn-primary" type="submit" style="width:100%;justify-content:center;">Iniciar sesión →</button>
+    </form>
+
+    <p class="access-note" style="text-align:center;">
+      <a href="#" id="forgotPasswordLink" style="color:var(--primary);font-weight:600;">Olvidé mi contraseña</a>
+    </p>
+    <p class="access-note">
+      ¿Todavía no compraste? <a href="index.html" style="color:var(--primary);font-weight:600;">Ver de qué trata Impulso Real</a>.
+    </p>
+  </div>
+
+  <script type="module" src="js/pages/login.js"></script>
+</body>
+</html>

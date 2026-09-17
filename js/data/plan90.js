@@ -1,0 +1,113 @@
+// Contenido original de Impulso Real — sin modificar, solo reubicado.
+export const PLAN_90 = {
+  phases:[
+    {name:"Preparar",range:"Días 1–30",desc:"Diagnóstico, presupuesto, ahorro, deudas y tu primer servicio definido."},
+    {name:"Lanzar",range:"Días 31–60",desc:"Primeros clientes, negocio digital, marketing y ventas éticas en acción."},
+    {name:"Ajustar",range:"Días 61–90",desc:"IA, diversificación, mejora continua y tu plan para los próximos 90 días."}
+  ],
+  blocks:[
+    {range:"Días 1–7",theme:"Diagnóstico financiero",phase:0,days:[
+      "Lee el Módulo 1 y escribe tus 3 creencias sobre el dinero.",
+      "Revisa el saldo de todas tus cuentas y anótalo en un solo lugar.",
+      "Suma todos tus ingresos del último mes.",
+      "Suma todos tus gastos fijos del último mes.",
+      "Suma todos tus gastos variables del último mes.",
+      "Calcula tu presupuesto 50/30/20 con la calculadora del programa.",
+      "Descarga la plantilla de presupuesto mensual y llénala con tus números reales."]},
+    {range:"Días 8–14",theme:"Presupuesto y ahorro",phase:0,days:[
+      "Compara tu presupuesto ideal con tus gastos reales de la semana 1.",
+      "Identifica un gasto variable que puedas reducir esta semana.",
+      "Calcula tu fondo de emergencia con la calculadora del programa.",
+      "Abre o designa una cuenta exclusiva para tu fondo de emergencia.",
+      "Transfiere tu primer aporte al fondo de emergencia, aunque sea pequeño.",
+      "Lee el Módulo 5 y lista todas tus deudas actuales con su interés.",
+      "Elige tu método para pagar deudas (bola de nieve o avalancha)."]},
+    {range:"Días 15–21",theme:"Descubre tus habilidades",phase:0,days:[
+      "Lee el Módulo 6 y lista 5 tareas que te resultan fáciles pero difíciles para otros.",
+      "Pregunta a 2 personas cercanas qué creen que se te da bien.",
+      "Elige la habilidad con más potencial para convertir en servicio.",
+      "Investiga a 3 personas que ya ofrecen un servicio similar al tuyo.",
+      "Escribe en una frase el problema específico que resolverías con esa habilidad.",
+      "Define el nombre simple de tu servicio.",
+      "Descansa y repasa tus notas de la semana en la sección Mis notas."]},
+    {range:"Días 22–30",theme:"Primeros pasos freelance",phase:0,days:[
+      "Lee el Módulo 7 y define tu servicio de forma específica.",
+      "Crea un ejemplo o muestra de tu trabajo (aunque sea de práctica).",
+      "Escribe tus condiciones básicas: qué incluye, revisiones y tiempo de entrega.",
+      "Calcula tu tarifa mínima con la calculadora de tarifa freelance.",
+      "Elige el canal donde recibirás contactos (WhatsApp, correo, red social).",
+      "Revisa el Módulo 9 sobre precios justos y ajusta tu tarifa si hace falta.",
+      "Escribe tu propuesta de valor en una sola frase clara.",
+      "Marca el objetivo 'Tener un diagnóstico claro de mis finanzas' en tu panel.",
+      "Cierra la primera etapa: revisa tu avance en la sección Mi progreso."]},
+    {range:"Días 31–37",theme:"Conseguir tus primeros clientes",phase:1,days:[
+      "Lee el Módulo 8 y escribe un mensaje claro y específico sobre tu servicio.",
+      "Envía tu mensaje a 5 contactos cercanos.",
+      "Publica tu servicio en una red social con un ejemplo de tu trabajo.",
+      "Únete a un grupo o comunidad donde esté tu público objetivo.",
+      "Da seguimiento a las personas que respondieron tu mensaje.",
+      "Pide a alguien cercano que te recomiende con su red de contactos.",
+      "Descarga y usa la plantilla de propuesta freelance para tu primer prospecto."]},
+    {range:"Días 38–44",theme:"Fundamentos del negocio digital",phase:1,days:[
+      "Lee el Módulo 10 y escribe una idea de negocio digital basada en tus habilidades.",
+      "Define el público específico al que serviría esa idea.",
+      "Valida tu idea preguntando a 5 personas de ese público si la necesitan.",
+      "Ajusta tu idea según lo que aprendiste al validar.",
+      "Lee el Módulo 11 y define un producto digital simple.",
+      "Esboza el contenido básico de ese producto, aunque sea a mano.",
+      "Define un precio inicial accesible para probar el mercado."]},
+    {range:"Días 45–51",theme:"Marketing con contenido útil",phase:1,days:[
+      "Lee el Módulo 12 y elige una sola red social para enfocar tus esfuerzos.",
+      "Planifica 4 publicaciones de contenido útil para las próximas dos semanas.",
+      "Publica tu primer contenido útil, que no sea de venta directa.",
+      "Responde todos los comentarios y mensajes que recibas.",
+      "Publica tu segundo contenido de la semana.",
+      "Revisa qué publicación tuvo más interacción y anota por qué.",
+      "Ajusta tu plan de contenido según lo aprendido."]},
+    {range:"Días 52–58",theme:"Ventas éticas y productividad",phase:1,days:[
+      "Lee el Módulo 13 y escribe una descripción honesta de tu servicio o producto.",
+      "Elimina cualquier frase de presión falsa de tus mensajes de venta.",
+      "Lee el Módulo 14 y define 3 bloques de tiempo fijos en tu calendario.",
+      "Escribe tus 3 prioridades del día, cada mañana de esta semana.",
+      "Elimina una distracción específica durante tus bloques de trabajo.",
+      "Revisa tus notas guardadas en los módulos anteriores.",
+      "Da seguimiento a todos tus contactos y prospectos pendientes."]},
+    {range:"Días 59–60",theme:"Cierre de la segunda etapa",phase:1,days:[
+      "Revisa qué funcionó y qué no en tus primeras publicaciones y mensajes.",
+      "Cierra la segunda etapa: actualiza tu progreso y reconoce tus avances."]},
+    {range:"Días 61–67",theme:"IA aplicada a tu trabajo",phase:2,days:[
+      "Lee el Módulo 15 y prueba tu primer prompt de IA con una tarea real.",
+      "Usa IA para generar un borrador de propuesta o mensaje, y revísalo.",
+      "Identifica una tarea repetitiva que puedas agilizar con IA de forma regular.",
+      "Define por escrito en qué casos sí y en qué casos no usarás IA en tu trabajo.",
+      "Usa una herramienta de IA para organizar tus ideas de contenido del mes.",
+      "Revisa el glosario del programa y repasa 5 términos que aún no tengas claros.",
+      "Aplica lo aprendido de IA en una tarea pendiente de tu proyecto."]},
+    {range:"Días 68–74",theme:"Diversificación",phase:2,days:[
+      "Lee el Módulo 16 y lista tus fuentes de ingreso actuales.",
+      "Define una posible segunda fuente de ingreso a futuro.",
+      "Investiga esa segunda fuente sin comprometer dinero todavía.",
+      "Revisa tu fondo de emergencia y ajusta tu aporte si es necesario.",
+      "Revisa tus deudas y confirma que sigues tu método de pago elegido.",
+      "Actualiza tu presupuesto con tus ingresos reales de estos 90 días.",
+      "Descansa y revisa tu progreso general en la app."]},
+    {range:"Días 75–81",theme:"Ajuste y mejora",phase:2,days:[
+      "Revisa tu tarifa: ¿deberías subirla con base en lo aprendido?",
+      "Pide retroalimentación honesta a un cliente o contacto cercano.",
+      "Actualiza tu ejemplo de trabajo o portafolio con lo mejor de estos 90 días.",
+      "Ajusta tu mensaje de presentación con lo que mejor te ha funcionado.",
+      "Revisa tu plan de contenido y defínelo para el próximo mes.",
+      "Identifica qué módulo necesitas repasar antes de seguir avanzando.",
+      "Repasa ese módulo y actualiza tus notas."]},
+    {range:"Días 82–90",theme:"Consolidación final",phase:2,days:[
+      "Escribe 3 logros concretos de estos 90 días, por pequeños que sean.",
+      "Escribe 3 cosas que ajustarías si empezaras de nuevo.",
+      "Define tu meta de ingreso extra para los próximos 90 días.",
+      "Define qué hábito financiero vas a mantener de forma permanente.",
+      "Define qué hábito de tu proyecto de ingresos vas a mantener de forma permanente.",
+      "Revisa que todos tus módulos estén marcados según tu avance real.",
+      "Revisa todas las plantillas que usaste durante el programa.",
+      "Escribe tu plan resumido para los próximos 90 días, con lo aprendido aquí.",
+      "Completa el programa: descarga tu certificado y reconoce tu avance."]}
+  ]
+};
