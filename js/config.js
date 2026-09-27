@@ -9,5 +9,5 @@
 // Lo único que debes editar es tu enlace real de compra de Hotmart,
 // una vez lo tengas:
 // ============================================================
-export const HOTMART_CHECKOUT_URL = "https://pay.hotmart.com/P107598395P?checkoutMode=2";
+export const HOTMART_CHECKOUT_URL = "https://pay.hotmart.com/P107598395P";
 	
